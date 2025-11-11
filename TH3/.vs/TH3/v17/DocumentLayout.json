@@ -1,0 +1,161 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\TH3\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05C3FA62-2D94-4E91-99DA-70AA2BCB4982}|TH3.csproj|c:\\users\\admin\\source\\repos\\th3\\bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C3FA62-2D94-4E91-99DA-70AA2BCB4982}|TH3.csproj|solutionrelative:bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C3FA62-2D94-4E91-99DA-70AA2BCB4982}|TH3.csproj|c:\\users\\admin\\source\\repos\\th3\\bai3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C3FA62-2D94-4E91-99DA-70AA2BCB4982}|TH3.csproj|solutionrelative:bai3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C3FA62-2D94-4E91-99DA-70AA2BCB4982}|TH3.csproj|C:\\Users\\Admin\\source\\repos\\TH3\\bai3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{05C3FA62-2D94-4E91-99DA-70AA2BCB4982}|TH3.csproj|solutionrelative:bai3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C3FA62-2D94-4E91-99DA-70AA2BCB4982}|TH3.csproj|c:\\users\\admin\\source\\repos\\th3\\bai2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C3FA62-2D94-4E91-99DA-70AA2BCB4982}|TH3.csproj|solutionrelative:bai2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C3FA62-2D94-4E91-99DA-70AA2BCB4982}|TH3.csproj|c:\\users\\admin\\source\\repos\\th3\\bai1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C3FA62-2D94-4E91-99DA-70AA2BCB4982}|TH3.csproj|solutionrelative:bai1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C3FA62-2D94-4E91-99DA-70AA2BCB4982}|TH3.csproj|c:\\users\\admin\\source\\repos\\th3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C3FA62-2D94-4E91-99DA-70AA2BCB4982}|TH3.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C3FA62-2D94-4E91-99DA-70AA2BCB4982}|TH3.csproj|C:\\Users\\Admin\\source\\repos\\TH3\\bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{05C3FA62-2D94-4E91-99DA-70AA2BCB4982}|TH3.csproj|solutionrelative:bai4.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C3FA62-2D94-4E91-99DA-70AA2BCB4982}|TH3.csproj|c:\\users\\admin\\source\\repos\\th3\\th3.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{05C3FA62-2D94-4E91-99DA-70AA2BCB4982}|TH3.csproj|solutionrelative:th3.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bai3.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TH3\\Bai3.cs",
+              "RelativeDocumentMoniker": "Bai3.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TH3\\Bai3.cs",
+              "RelativeToolTip": "Bai3.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T03:31:07.723Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Bai2.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TH3\\Bai2.cs",
+              "RelativeDocumentMoniker": "Bai2.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TH3\\Bai2.cs",
+              "RelativeToolTip": "Bai2.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T03:29:12.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Bai1.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TH3\\Bai1.cs",
+              "RelativeDocumentMoniker": "Bai1.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TH3\\Bai1.cs",
+              "RelativeToolTip": "Bai1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T13:35:28.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Bai3.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TH3\\Bai3.cs",
+              "RelativeDocumentMoniker": "Bai3.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TH3\\Bai3.cs [Design]",
+              "RelativeToolTip": "Bai3.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T01:46:07.839Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Bai4.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TH3\\Bai4.cs",
+              "RelativeDocumentMoniker": "Bai4.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TH3\\Bai4.cs",
+              "RelativeToolTip": "Bai4.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T01:43:51.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Bai4.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TH3\\Bai4.cs",
+              "RelativeDocumentMoniker": "Bai4.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TH3\\Bai4.cs [Design]",
+              "RelativeToolTip": "Bai4.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T01:43:36.09Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TH3",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TH3\\TH3.csproj",
+              "RelativeDocumentMoniker": "TH3.csproj",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TH3\\TH3.csproj",
+              "RelativeToolTip": "TH3.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-10-21T13:07:32.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\TH3\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\source\\repos\\TH3\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-21T12:55:21.65Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 34,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

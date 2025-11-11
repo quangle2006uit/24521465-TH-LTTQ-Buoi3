@@ -1,0 +1,156 @@
+﻿<Window x:Class="BTTH_Bai8.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BTTH_Bai8"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="1.2*"/>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="1.2*"/>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="1.2*"/>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="1.2*"/>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="1.2*"/>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="10*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="6*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="10*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.Resources>
+                <Style TargetType="TextBlock">
+                    <Setter Property="HorizontalAlignment" Value="Right"/>
+                    <Setter Property="VerticalAlignment" Value="Center"/>
+                    <Setter Property="FontSize" Value="21"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                </Style>
+                <Style TargetType="TextBox">
+                    <Setter Property="HorizontalAlignment" Value="Stretch"/>
+                    <Setter Property="VerticalAlignment" Value="Stretch"/>
+                    <Setter Property="FontSize" Value="18"/>
+                    <Setter Property="BorderThickness" Value="2"/>
+                </Style>
+            </Grid.Resources>
+            <TextBlock Grid.Row="1"
+                       Grid.Column="1"
+                       Text="Số Tài Khoản"/>
+            <TextBlock Grid.Row="3"
+                       Grid.Column="1"
+                       Text="Tên Khách Hàng"/>
+            <TextBlock Grid.Row="5"
+                       Grid.Column="1"
+                       Text="Địa Chỉ Khách Hàng"/>
+            <TextBlock Grid.Row="7"
+                       Grid.Column="1"
+                       Text="Số Tiền Trong Tài Khoản"/>
+            <TextBox   Grid.Row="1"
+                       x:Name="STK"
+                       Grid.Column="3"
+                       Text=""/>
+            <TextBox   Grid.Row="3"
+                       x:Name="TKH"
+                       Grid.Column="3"
+                       Text=""/>
+            <TextBox   Grid.Row="5"
+                       x:Name="DC"
+                       Grid.Column="3"
+                       Text=""/>
+            <TextBox   Grid.Row="7"
+                       x:Name="ST"
+                       Grid.Column="3"
+                       Text=""/>
+        </Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="7*"/>
+                <RowDefinition Height="10*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Text="QUẢN LÝ THÔNG TIN TÀI KHOẢN"
+                       FontSize="40"
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"
+                       FontWeight="Bold"
+                       Foreground="Blue"/>
+        </Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="1.2*"/>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="1.2*"/>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="1.2*"/>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="1.2*"/>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="1.2*"/>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="10*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="7*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="3*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="FontSize" Value="16"/>
+                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                    <Setter Property="BorderThickness" Value="2"/>
+                </Style>
+            </Grid.Resources>
+            <Button Grid.Row="9"
+                    Grid.Column="1" Click="Nhap"
+                    Content="Thêm/Cập Nhập"/>
+            <Button Grid.Row="9"
+                    Grid.Column="3" Click="Xoa"
+                    Content="Xoá"/>
+            <Button Grid.Row="9"
+                    Grid.Column="5" Click="Thoat"
+                    Content="Thoát"/>
+        </Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="10*"/>
+                <RowDefinition Height="10*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="40*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+            <ScrollViewer Grid.Row="1"
+                          Grid.Column="1">
+                <ListView ItemsSource="{Binding TaiKhoanList}"
+                          SelectionChanged="lvTaiKhoan_SelectionChanged">
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn Header="Số Tài Khoản" Width="180" DisplayMemberBinding="{Binding SoTaiKhoan}"/>
+                            <GridViewColumn Header="Tên Khách Hàng" Width="180" DisplayMemberBinding="{Binding Ten}"/>
+                            <GridViewColumn Header="Địa Chỉ" Width="180" DisplayMemberBinding="{Binding DiaChi}"/>
+                            <GridViewColumn Header="Số Tiền" Width="180" DisplayMemberBinding="{Binding SoTien}"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</Window>

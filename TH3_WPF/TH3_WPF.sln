@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36301.6 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TH3_WPF", "TH3_WPF.csproj", "{D20CD535-59A6-45E1-8BF8-4F607227898A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D20CD535-59A6-45E1-8BF8-4F607227898A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20CD535-59A6-45E1-8BF8-4F607227898A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20CD535-59A6-45E1-8BF8-4F607227898A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20CD535-59A6-45E1-8BF8-4F607227898A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EFD123D9-C2BE-4885-A099-DCE04ACDDB68}
+	EndGlobalSection
+EndGlobal

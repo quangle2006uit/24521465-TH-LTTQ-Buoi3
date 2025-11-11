@@ -1,0 +1,233 @@
+﻿<Window x:Class="TH3_Bai6.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TH3_Bai6"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.5*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.3*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.3*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="FontSize" Value="20"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                    <Setter Property="Foreground" Value="DarkBlue"/>
+                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                </Style>
+            </Grid.Resources>
+            <Button Grid.Row="11"
+                    Grid.Column="11"
+                    Content="="
+                    Foreground="Red" Click="ToanTu"/>
+            <Button Grid.Row="9"
+                    Grid.Column="11"
+                    Content="1/x" Click="BienDoi"/>
+            <Button Grid.Row="11"
+                    Grid.Column="9"
+                    Content="+" Click="ToanTu"
+                    Foreground="Red"/>
+            <Button Grid.Row="9"
+                    Grid.Column="9"
+                    Content="-" Click="ToanTu"
+                    Foreground="Red"/>
+            <Button Grid.Row="7"
+                    Grid.Column="9"
+                    Content="X" Click="ToanTu"
+                    Foreground="Red"/>
+            <Button Grid.Row="9"
+                    Grid.Column="7"
+                    Content="3" Click="Input"/>
+            <Button Grid.Row="7"
+                    Grid.Column="7"
+                    Content="6" Click="Input"/>
+            <Button Grid.Row="11"
+                    Grid.Column="7"
+                    Content="." Click="Input"/>
+            <Button Grid.Row="7"
+                    Grid.Column="11"
+                    Content="%" Click="BienDoi"/>
+            <Button Grid.Row="5"
+                    Grid.Column="9"
+                    Content="/" Click="ToanTu"
+                    Foreground="Red"/>
+            <Button Grid.Row="5"
+                    Grid.Column="7"
+                    Content="9" Click="Input"/>
+            <Button Grid.Row="5"
+                    Grid.Column="11"
+                    Content="sqrt" Click="BienDoi"/>
+            <Button Grid.Row="5"
+                    Grid.Column="5"
+                    Content="8" Click="Input"/>
+            <Button Grid.Row="7"
+                    Grid.Column="5"
+                    Content="5" Click="Input"/>
+            <Button Grid.Row="9"
+                    Grid.Column="5"
+                    Content="2" Click="Input"/>
+            <Button Grid.Row="11"
+                    Grid.Column="5"
+                    Content="+/-" Click="BienDoi"/>
+            <Button Grid.Row="5"
+                    Grid.Column="3"
+                    Content="7" Click="Input"/>
+            <Button Grid.Row="7"
+                    Grid.Column="3"
+                    Content="4" Click="Input"/>
+            <Button Grid.Row="9"
+                    Grid.Column="3"
+                    Content="1" Click="Input"/>
+            <Button Grid.Row="11"
+                    Grid.Column="3"
+                    Content="0" Click="Input"/>
+            <Button Grid.Row="11"
+                    Grid.Column="1"
+                    Content="M+" Click="BONHOTAM"
+                    Foreground="Red"/>
+            <Button Grid.Row="9"
+                    Grid.Column="1"
+                    Content="MS" Click="BONHOTAM"
+                    Foreground="Red"/>
+            <Button Grid.Row="7"
+                    Grid.Column="1"
+                    Content="MR" Click="BONHOTAM"
+                    Foreground="Red"/>
+            <Button Grid.Row="5"
+                    Grid.Column="1"
+                    Content="MC" Click="BONHOTAM"
+                    Foreground="Red"/>
+        </Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.7*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.7*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.4*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.4*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.4*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.5*"/>
+            </Grid.RowDefinitions>
+            <Menu VerticalAlignment="Center">
+                <MenuItem Header="_File"/>
+                <MenuItem Header="_View"/>
+                <MenuItem Header="_Help"/>
+            </Menu>
+        </Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.7*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.7*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.4*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.4*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.4*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.5*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.3*"/>
+                <ColumnDefinition Width="7.6*"/>
+                <ColumnDefinition Width="0.3*"/>
+            </Grid.ColumnDefinitions>
+            <TextBox x:Name="Text_Box"
+                     Grid.Row="1"
+                     Grid.Column="1"
+                     BorderBrush="Black"
+                     BorderThickness="1"
+                     FontSize="30"
+                     HorizontalContentAlignment="Left"
+                     VerticalContentAlignment="Center"/>
+        </Grid>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.5*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.2*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="0.5*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.3*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="0.5*"/>
+                <ColumnDefinition Width="1.8*"/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="1.8*"/>
+                <ColumnDefinition Width="0.2*"/>
+                <ColumnDefinition Width="1.8*"/>
+                <ColumnDefinition Width="0.3*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="FontSize" Value="20"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                    <Setter Property="Foreground" Value="Red"/>
+                    <Setter Property="HorizontalContentAlignment" Value="Center"/>
+                    <Setter Property="VerticalContentAlignment" Value="Center"/>
+                </Style>
+            </Grid.Resources>
+            <Button Grid.Row="3"
+                    Grid.Column="7"
+                    Content="C" Click="XoaBoNho"/>
+            <Button Grid.Row="3"
+                    Grid.Column="5" 
+                    Content="CE" Click="XoaBoNho"/>
+            <Button Grid.Row="3"
+                    Grid.Column="3"
+                    Content="Backspace" Click="XoaBoNho"/>
+
+
+        </Grid>
+    </Grid>
+</Window>
